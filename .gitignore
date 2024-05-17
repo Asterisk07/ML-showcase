@@ -1,3 +1,8 @@
+# not targeted for now
+.macos/
+.linux/
+.ios/
+
 # Miscellaneous
 *.class
 *.log
@@ -41,3 +46,30 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart related files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# MacOS
+.DS_Store
+
+
+# Windows
+Thumbs.db
+
+# Android
+**/android/app/debug.keystore
+
+# iOS
+ios/Pods/
+
